@@ -1,0 +1,11 @@
+$grid-width:1140px;
+$horizontal-gutter:20px;
+$verticle-gutter:20px;
+@import './grid';
+.row{
+    background-color: orangered;
+}
+[class^="col-"]{
+    background-color: chartreuse;
+    padding: $horizontal-gutter 0;
+}
